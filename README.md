@@ -3,13 +3,13 @@
 Welcome to my portfolio! This repository showcases my projects as a Frontend Developer.
 
 ## Live Demo
-[Explore My Projects Live](https://juliaa-mm.github.io/my_portfolio/)
+[Explore My Projects Live](./index.html)
 
 ---
 
-## 🛠 Tech Stack
-* **Languages:** HTML5, CSS3, JavaScript
-* **Methodologies:** BEM (Block Element Modifier)
+## Tech Stack
+* **Languages:** HTML5, CSS3
+* **Methodologies:** BEM
 * **Styling:** Flexbox, Grid Layout, Responsive Web Design
 * **Tools:** VS Code, Git, GitHub, Figma
 
@@ -41,8 +41,7 @@ A content-rich historical project dedicated to the King of Poland.
 
 ## 📫 Contact Me
 * **GitHub:** [juliaa-mm](https://github.com/juliaa-mm)
-* **Email:** [Your Email Here]
-* **LinkedIn:** [Your LinkedIn Profile Here]
+* **Email:** [julia.moskalenko2008@gmail.com]
 
 ---
 *Created by Julia Moskalenko — 2026*
