@@ -3,7 +3,7 @@
 Welcome to my portfolio! This repository showcases my projects as a Frontend Developer.
 
 ## Live Demo
-[Explore My Projects Live](./index.html)
+[Explore My Projects Live](https://juliaa-mm.github.io/my_portfolio/)
 
 ---
 
