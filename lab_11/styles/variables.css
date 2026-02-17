@@ -1,0 +1,36 @@
+:root {
+	--color-primary-blue: #2567E8;
+	--color-button-primary: #1D61E7;
+	--color-link: #4D81E7;
+	--color-surface: #FFFFFF;
+	--color-background-light: #F6F8FA;
+	--color-border-light: #EFF0F6;
+	--color-text-primary: #1A1C1E;
+	--color-text-secondary: #6C7278;
+	--color-text-on-accent: #EEEEEE;
+	--color-btn-hover: #0038A8;
+
+	--size-viewport-width: 375px;
+	--size-viewport-height: 812px;
+	--size-img-bg-height: 397px;
+	--size-form-card-width: 327px;
+	--size-form-card-height-login: 418px;
+	--size-form-card-height-signup: 500px;
+	--size-input-width: 279px;
+	--size-input-height: 48px;
+	--size-input-radius: 10px;
+	--size-input-small-width: 131.5px;
+	--size-icon-main: 18px;
+	--size-icon-small: 20px;
+	--spacing-page-padding: 24px;
+	--spacing-header-horizontal: 21px;
+	--spacing-lg: 20px;
+	--spacing-md: 16px;
+	--spacing-sm: 10px;
+	--spacing-xs: 5px;
+	--spacing-xxs: 1px;
+	--font-size-xl: 32px;
+	--font-size-lg: 16px;
+	--font-size-md: 14px;
+	--font-size-sm: 12px;
+}

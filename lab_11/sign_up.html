@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/sign_up.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Sign Up</title>
+</head>
+<body>
+<div class="signup">
+    <div class="signup__bg"><img src="./img/Head.png" alt="Background Image"></div>
+    
+    <a href="./log_in.html" class="signup__back">
+        <img src="./img/arrow-narrow-left.svg" alt="Back Button">
+    </a>
+
+    <header class="signup__header">
+        <p class="signup__time">9:41</p>
+        <div class="signup__icons">
+            <img src="./img/Mobile Signal.svg" alt="Mobile Signal">
+            <img src="./img/Wifi.svg" alt="Wifi">
+            <img src="./img/Battery.svg" alt="Battery">
+        </div>
+    </header>
+
+    <div class="signup__content">
+        <h1 class="signup__title">Sign Up</h1>
+        <p class="signup__text">
+            Already have an account? 
+            <a href="./log_in.html" class="signup__link">Log In</a>
+        </p>
+    </div>
+
+    <form action="https://httpbin.org/post" method="post" class="signup__form">
+        
+        <div class="signup__fields-group">
+            <input type="text" name="first_name" placeholder="Lois" class="signup__input signup__input--small" required>
+            <input type="text" name="last_name" placeholder="Becket" class="signup__input signup__input--small" required>
+        </div>
+
+        <input type="email" name="email" placeholder="Loisbecket@gmail.com" class="signup__input_email" required>
+
+        <div class="signup__input-wrap">
+            <input type="text" name="date_of_birth" placeholder="18/03/2024" class="signup__input" required>
+            <span class="signup__icon-date"><img src="./img/calendar-due.svg" alt="Calendar Icon"></span>
+        </div>
+
+        <div class="signup__input-wrap signup__input-wrap--phone">
+            <span class="signup__flag"><img src="./img/United Kingdom.svg" alt="Flag"></span>
+            <span class="signup__arrow"><img src="./img/arrow-down.svg" alt="Down Arrow"></span>
+            <div class="signup__divider"></div>
+            <input type="tel" name="phone" placeholder="(454) 726-0592" class="signup__input" required>
+        </div>
+
+        <div class="signup__input-wrap">
+            <input type="password" name="password" placeholder="*******" class="signup__input" required>
+            <span class="signup__icon-eye"><img src="./img/eye-off.svg" alt="Show Password"></span>
+        </div>
+
+        <button type="submit" class="signup__btn">
+            <p class="signup__btn-text">Sign Up</p>
+        </button>
+        
+        <div class="signup__divider-block">
+            <hr class="signup__divider-line">
+            <p class="signup__divider-text">Or</p>
+            <hr class="signup__divider-line">
+        </div>
+
+        <button type="button" class="signup__social-btn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png" class="signup__social-icon" alt="Google Icon">
+            <p class="signup__social-text">Sign up with Google</p>
+        </button>
+    </form>
+
+    <footer class="signup__footer">
+        <img src="./img/Home Indicator.svg" alt="Home Indicator">
+    </footer>
+</div>
+</body>
+</html>

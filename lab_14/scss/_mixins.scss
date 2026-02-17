@@ -1,0 +1,76 @@
+@use 'variables' as vars;
+@use 'fonts';
+
+@mixin btn-normal{
+    background: vars.$color-yellow;
+    font-family: vars.$font-heading;
+    font-style: normal;
+    font-size: vars.$textmain-size;
+    line-height: vars.$textmain-line;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    padding: 13.25px 37.5px;
+
+}
+@mixin btn-hover{
+    border: 3px solid vars.$color-yellow;
+    font-family: vars.$font-heading;    
+    font-style: normal;
+    background: #FFFFFF;
+    font-size: vars.$textmain-size;
+    line-height: vars.$textmain-line;
+    letter-spacing: 0;
+    text-align: center;
+    text-decoration: none;
+    color: vars.$color-yellow;
+}
+@mixin h1-text{
+    font-family: vars.$font-heading;
+    font-size: vars.$h1-size;
+    letter-spacing: vars.$h1-spacing;
+    line-height: vars.$h1-line;
+    color: vars.$color-dark-navy;
+}
+
+@mixin h2-text {
+    font-family: vars.$font-heading;
+    font-size: vars.$h2-size;
+    letter-spacing: vars.$h2-spacing;
+    line-height: vars.$h2h3-line;
+    color: vars.$color-dark-navy;
+}
+
+@mixin h3-text {
+    font-family: vars.$font-heading;
+    font-size: vars.$h3-size;
+    letter-spacing: vars.$h3-spacing;
+    line-height: vars.$h2h3-line;
+    color: vars.$color-dark-navy;
+}
+
+@mixin h4-text {
+    font-family: vars.$font-heading;
+    font-size: vars.$h4-size;
+    letter-spacing: vars.$h4-spacing;
+    line-height: vars.$h4-line;
+    color: vars.$color-dark-navy;
+}
+@mixin text{
+    font-family: vars.$font-body;
+    font-size: vars.$textmain-size;
+    letter-spacing: 0;
+    line-height: vars.$textmain-line;
+    color: vars.$color-dim-grey;
+}
+@mixin picture-big{
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;
+}
+@mixin picture-small{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}

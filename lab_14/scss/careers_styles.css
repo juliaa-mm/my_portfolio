@@ -1,0 +1,413 @@
+@import url("_fonts.scss");
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: url("./fonts/SpaceMono-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "LexendDeca";
+  src: url("./fonts/LexendDeca-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.header-wrapper {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 22px 165px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 3px 13px 1px;
+  animation: appearFromTop 0.6s;
+  z-index: 99999;
+}
+.header_logo {
+  flex-shrink: 0;
+}
+.header_links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-left: 60px;
+}
+.header_links_link {
+  font-family: "SpaceMonoBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  text-decoration: none;
+  margin-top: 4px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+.header_links_link:hover {
+  color: #FCB72B;
+}
+.header_right {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+.header_right_button {
+  background: #FCB72B;
+  font-family: "SpaceMonoBold";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  padding: 13.25px 37.5px;
+}
+.header_right_button:hover {
+  border: 3px solid #FCB72B;
+  font-family: "SpaceMonoBold";
+  font-style: normal;
+  background: #FFFFFF;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+  color: #FCB72B;
+}
+
+.bg-top {
+  padding: 130px;
+  background: linear-gradient(rgba(12, 44, 95, 0.6), rgba(12, 44, 95, 0.6)), url(../imgs/about/bg_about.png);
+  background-position: 15% 100%;
+}
+
+.mission {
+  padding: 120px 0;
+  background: #fff;
+}
+.mission__container {
+  width: 90%;
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.mission__content {
+  max-width: 480px;
+}
+.mission__title {
+  font-family: "SpaceMonoBold";
+  font-size: 48px;
+  letter-spacing: -2.14px;
+  line-height: 48px;
+  color: #495567;
+}
+.mission__text {
+  font-family: "LexendDeca";
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 25px;
+  color: #939CAA;
+  margin-bottom: 50px;
+}
+.mission__btn {
+  background: #FCB72B;
+  font-family: "SpaceMonoBold";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  padding: 13.25px 37.5px;
+}
+.mission__btn:hover {
+  border: 3px solid #FCB72B;
+  font-family: "SpaceMonoBold";
+  font-style: normal;
+  background: #FFFFFF;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+  color: #FCB72B;
+}
+.mission__image-wrapper {
+  position: relative;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mission__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.mission__arrow {
+  position: absolute;
+  bottom: 50px;
+  left: -160px;
+  width: 420px;
+  pointer-events: none;
+}
+
+.page__main-values {
+  margin-top: 10%;
+}
+.page__main-values-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+  font-family: "SpaceMonoBold";
+  font-size: 48px;
+  letter-spacing: -2.14px;
+  line-height: 48px;
+  color: #495567;
+}
+.page__main-values-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page__main-values-list-tech, .page__main-values-list-integrity, .page__main-values-list-community {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+}
+.page__main-values-list-tech-content, .page__main-values-list-integrity-content, .page__main-values-list-community-content {
+  text-align: center;
+  padding-top: 20%;
+}
+.page__main-values-list-tech-content-title, .page__main-values-list-integrity-content-title, .page__main-values-list-community-content-title {
+  padding-bottom: 10%;
+  font-family: "SpaceMonoBold";
+  font-size: 24px;
+  letter-spacing: -1.07px;
+  line-height: 28px;
+  color: #495567;
+}
+.page__main-values-list-tech-content-text, .page__main-values-list-integrity-content-text, .page__main-values-list-community-content-text {
+  font-family: "LexendDeca";
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 25px;
+  color: #939CAA;
+}
+.page__main-values-list-tech-picture, .page__main-values-list-integrity-picture, .page__main-values-list-community-picture {
+  align-items: center;
+}
+.page__main-values-list-tech-picture-img, .page__main-values-list-integrity-picture-img, .page__main-values-list-community-picture-img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+.page__main-values-list-tech-picture-number, .page__main-values-list-integrity-picture-number, .page__main-values-list-community-picture-number {
+  position: absolute;
+  margin-left: 75px;
+  margin-top: -50px;
+}
+
+.jobs {
+  padding: 80px 0;
+}
+.jobs__container {
+  width: 90%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.jobs__item {
+  background: #f2f5f9;
+  padding: 35px 40px;
+  border-bottom: 8px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.jobs__info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.jobs__title {
+  font-family: "SpaceMonoBold";
+  font-size: 24px;
+  letter-spacing: -1.07px;
+  line-height: 28px;
+  color: #495567;
+}
+.jobs__location {
+  font-family: "LexendDeca";
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 25px;
+  color: #939CAA;
+  color: #495567;
+}
+.jobs__btn {
+  background: #FCB72B;
+  font-family: "SpaceMonoBold";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  padding: 13.25px 37.5px;
+  padding: 13, 25px 45px;
+}
+.jobs__btn:hover {
+  border: 3px solid #FCB72B;
+  font-family: "SpaceMonoBold";
+  font-style: normal;
+  background: #FFFFFF;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: center;
+  text-decoration: none;
+  color: #FCB72B;
+}
+
+.page__footer {
+  margin-top: 10%;
+}
+
+.page__footer-section-signup {
+  display: flex;
+  background-color: #495567;
+  background-image: url("../imgs/circlesfooter.svg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 40px;
+}
+.page__footer-section-signup-title {
+  font-family: "SpaceMonoBold";
+  font-size: 48px;
+  letter-spacing: -2.14px;
+  line-height: 48px;
+  color: #495567;
+  color: #FFFFFF;
+  padding-left: 10%;
+  max-width: 415px;
+}
+.page__footer-section-signup-app {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15%;
+  gap: 20px;
+}
+.page__footer-section-signup-app-apple {
+  flex: 1;
+  transition: 0.2s;
+}
+.page__footer-section-signup-app-apple:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.page__footer-section-signup-app-android {
+  flex: 1;
+  transition: 0.2s;
+}
+.page__footer-section-signup-app-android:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.page__footer-under {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 35px 100px;
+  background-color: #333A44;
+}
+.page__footer-under-logo {
+  height: 24px;
+  margin-right: 58px;
+  flex: 1;
+}
+.page__footer-under-btns {
+  flex: 4;
+}
+.page__footer-under-btns-left {
+  font-family: "SpaceMonoBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  text-decoration: none;
+  margin-right: 32px;
+}
+.page__footer-under-socials {
+  flex: 1;
+  transition: all 0.5s;
+}
+.page__footer-under-socials-fb {
+  margin-right: 15px;
+  transition: 0.5s;
+}
+.page__footer-under-socials-instagram {
+  margin-left: 15px;
+}
+
+.page__footer {
+  height: 396px;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #FCB72B;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+
+.scroll-top-btn:hover {
+  background-color: #f7c96d;
+  transform: scale(1.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=careers_styles.css.map */

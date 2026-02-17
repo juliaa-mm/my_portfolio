@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/log_in.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Log In</title>
+</head>
+<body>
+<div class="login">
+    <div class="login__bg"><img src="./img/Head.png" alt="Background"></div>
+
+    <header class="login__header">
+        <p class="login__time">9:41</p>
+        <div class="login__icons">
+            <img src="./img/Mobile Signal.svg" alt="Signal">
+            <img src="./img/Wifi.svg" alt="Wifi">
+            <img src="./img/Battery.svg" alt="Battery">
+        </div>
+    </header>
+    
+
+    <div class="login__content">
+        <div class="login__logo">
+            <img src="./img/Vector.svg" alt="Logo">
+        </div>
+        <h1 class="login__title">Sign in to your Account</h1>
+        <p class="login__text">Enter your email and password to log in</p>
+    </div>
+
+    <form action="https://httpbin.org/post" method="post" class="login__form">
+        
+        <button type="button" class="login__social-btn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/2048px-Google_%22G%22_logo.svg.png" class="login__social-icon" alt="Google Icon">
+            <p class="login__social-text">Continue with Google</p>
+        </button>
+
+        <div class="login__divider">
+            <hr class="login__divider-line">
+            <p class="login__divider-text">Or login with</p>
+            <hr class="login__divider-line">
+        </div>
+
+        <div class="login__fields">
+            <input type="email" id="email" name="email" placeholder="Loisbecket@gmail.com" class="login__input" required>
+            <div class="login__input-wrap">
+                <input type="password" id="password" name="password" placeholder="*******" class="login__input" required>
+                <img src="./img/eye-off.svg" class="login__icon-eye" alt="Show Password">
+            </div>
+        </div>
+
+        <div class="login__options">
+            <label class="login__options-label">
+                <input type="checkbox" name="remember_me">
+                <span>Remember me</span>
+            </label>
+            <p class="login__options-link">Forgot Password ?</p>
+        </div>
+
+        <button type="submit" class="login__btn">Log In</button>
+
+        <div class="login__signup">
+            <p class="login__signup-text">Don’t have an account?</p>
+            <a href="./sign_up.html" class="login__signup-link">Sign Up</a>
+        </div>
+    </form>
+
+    <footer class="login__footer">
+        <img src="./img/Home Indicator.svg" alt="Home Indicator">
+    </footer>
+</div>
+</body>
+</html>
