@@ -3,63 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julia Moskalenko | Portfolio</title>
-    <link rel="stylesheet" href="portfolio-style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter:wght@400;600;800&display=swap' rel='stylesheet'>
+    <title>Julia Portfolio</title>
 </head>
 <body>
-    <header class="hero">
-        <div class="container">
-            <h1>Julia Moskalenko</h1>
-            <p class="subtitle">Frontend Developer</p>
-            <p class="description">Turning designs into clean, responsive, and user-friendly web experiences.</p>
-        </div>
-    </header>
 
-    <main class="container">
-        <h2 class="section-title">Featured Projects</h2>
-        <div class="projects-grid">
+    <div class="portfolio">
+        <nav class="portfolio__nav">
+            <div class="portfolio__logo">JM.</div>
+            <div class="portfolio__links">
+                <a href="#about" class="portfolio__link-item">About</a>
+                <a href="#work" class="portfolio__link-item">Work</a>
+            </div>
+        </nav>
+
+        <header class="hero" id="about">
+            <div class="hero__badge">Julia Moskalenko</div>
+            <h1 class="hero__title">
+                Frontend Developer
+            </h1>
+            <p class="hero__text">
+                I am a highly motivated aspiring developer with a strong passion for creating visually appealing and user-friendly web interfaces. Although I am at the beginning of my professional journey in Frontend development, I have a solid foundation in HTML and CSS, and I am actively improving my JavaScript skills.
+            </p>
+            <div class="hero__socials">
+                <a href="https://t.me/muiqxx" class="hero__social-btn">Telegram</a>
+                <div class="hero__social-divider"></div>
+                <a href="https://github.com/juliaa-mm" class="hero__social-btn">GitHub</a>
+            </div>
+        </header>
+
+        <section class="work" id="work">
+            <h2 class="work__title">My projects</h2>
             
-            <div class="project-card">
-                <div class="card-content">
-                    <h3>Scoot Rental</h3>
-                    <p>Multi-page website for a modern scooter rental service.</p>
-                    <a href="scoot-rental/index.html" class="btn">View Project</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="card-content">
-                    <h3>Brainwave</h3>
-                    <p>Modern landing page for coworking spaces.</p>
-                    <a href="brainwave-coworking/index.html" class="btn">View Project</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="card-content">
-                    <h3>SecureAccess</h3>
-                    <p>Polished Log In and Sign Up flows with focus on UI/UX.</p>
-                    <div class="btn-group">
-                        <a href="auth-flows/log_in.html" class="btn">Log In</a>
-                        <a href="auth-flows/sign_up.html" class="btn">Sign Up</a>
+            <div class="work__list">
+                <article class="project-item">
+                    <div class="project-item__header">
+                        <span class="project-item__num">01</span>
+                        <h3 class="project-item__name">Scoot Rental</h3>
                     </div>
-                </div>
+                    <p class="project-item__desc">A multi-page responsive website for a rental service. Focused on complex layouts, asset optimization, and seamless navigation across different devices.</p>
+                    <a href="./scoot-rental/index.html" class="project-item__link">Explore Project →</a>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item__header">
+                        <span class="project-item__num">02</span>
+                        <h3 class="project-item__name">Brainwave</h3>
+                    </div>
+                    <p class="project-item__desc">A futuristic landing page for a tech-focused workspace. Deep dive into advanced CSS Grid and Flexbox structures to achieve a pixel-perfect design.</p>
+                    <a href="./brainwave-coworking/index.html" class="project-item__link">Explore Project →</a>
+                </article>
+
+                <article class="project-item">
+                    <div class="project-item__header">
+                        <span class="project-item__num">03</span>
+                        <h3 class="project-item__name">SecureAccess Flows</h3>
+                    </div>
+                    <p class="project-item__desc">Professional authentication interface featuring Log In and Sign Up flows. Focused on form validation states, user experience, and clean, accessible UI.</p>
+                    <div class="project-item__auth-links">
+                        <a href="./auth-flows/log_in.html" class="project-item__link">Log In</a>
+                        <span class="project-item__divider">/</span>
+                        <a href="./auth-flows/sign_up.html" class="project-item__link">Sign Up</a>
+                    </div>
+                </article>
             </div>
+        </section>
 
-            <div class="project-card">
-                <div class="card-content">
-                    <h3>Historical Tribute</h3>
-                    <p>Content-rich page dedicated to Jan III Sobieski.</p>
-                    <a href="historical-page/index.html" class="btn">View Project</a>
-                </div>
-            </div>
-
-        </div>
-    </main>
-
-    <footer class="footer">
-        <p>&copy; 2024 Built by Julia Moskalenko</p>
-    </footer>
+        <footer class="portfolio__footer">
+            <p class="portfolio__footer-text">© 2026 Built with ♡ by Julia Moskalenko</p>
+        </footer>
+    </div>
 </body>
 </html>
