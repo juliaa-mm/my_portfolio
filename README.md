@@ -36,7 +36,7 @@ Mobile-first user flows for logging in and signing up.
 
 ## 📫 Contact Me
 * **GitHub:** [juliaa-mm](https://github.com/juliaa-mm)
-* **Email:** [julia.moskalenko2008@gmail.com]
+* **Email:** julia.moskalenko2008@gmail.com
 * **Telegram:** [muiqxx](https://t.me/muiqxx)
 
 ---
