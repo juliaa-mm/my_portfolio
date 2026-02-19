@@ -32,16 +32,12 @@ Mobile-first user flows for logging in and signing up.
 * **Tech:** Form Validation, Password visibility toggles, Social Auth UI.
 * **Focus:** Interaction design and detailed form handling.
 
-### 4. Legacy of Jan III Sobieski — Tribute Page
-A content-rich historical project dedicated to the King of Poland.
-* **Tech:** Accessible typography, Image galleries.
-* **Focus:** Information architecture and web accessibility.
-
 ---
 
 ## 📫 Contact Me
 * **GitHub:** [juliaa-mm](https://github.com/juliaa-mm)
 * **Email:** [julia.moskalenko2008@gmail.com]
+* **Telegram:** [muiqxx]
 
 ---
 *Created by Julia Moskalenko — 2026*
